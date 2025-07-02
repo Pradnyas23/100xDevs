@@ -1,0 +1,102 @@
+.html .body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 80px;
+  box-sizing: border-box;
+  height: 64px; 
+  z-index: 999;
+}
+
+.logo-src {
+  height: 20px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.options {
+  font-size: 15px; 
+  color: #666;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.hamburger {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: none; 
+}
+
+
+
+
+.landing-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    height: 300px;
+}
+
+.para{
+    text-align: center;
+}
+
+.line1{
+    font-size: 36px;
+    margin: 0;
+    padding: 50px 0 10px 0;
+    font-weight: 400;
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+}
+
+.line2{
+    font-family: 'Inter', sans-serif;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: #424242;
+    margin: 0;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center; 
+    padding-top: 60px;   
+    
+}
+
+.box .button1{
+    color: #fff;
+    background-color: #387ed1;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.2em;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border : 1px solid #bbb;
+    cursor: pointer;
+}
+
+
